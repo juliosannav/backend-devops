@@ -10,12 +10,14 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
-    "dev": "tsx watch src/index.ts"
+    "dev": "tsx watch src/index.ts",
+    "test": "jest --coverage"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "docker": "^1.0.0",
     "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
     "node-fetch": "^3.3.1"

@@ -1,4 +1,5 @@
 export const esPrimo = (numero: number) => {
+
     if (numero < 2) {
         return false;
     }
@@ -9,3 +10,4 @@ export const esPrimo = (numero: number) => {
     }
     return true
 }
+

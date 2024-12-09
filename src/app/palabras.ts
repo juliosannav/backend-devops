@@ -6,3 +6,5 @@ export const esPalindromo = (frase: string) => {
     const fraseInvertida = fraseSinEspacios.split("").reverse().join("");
     return fraseSinEspacios === fraseInvertida;
 }
+
+
